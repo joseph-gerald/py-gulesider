@@ -7,8 +7,8 @@ Python api to fetch data from gulesider
 > [!NOTE]
 > Code open-sourced from the private repo for [api.jooo.tech](https://api.jooo.tech/)
 
-![gulesider_showcase](https://github.com/joseph-gerald/py-gulesider/assets/73967013/904e0fc4-76c9-4c99-9774-05be2b92551b)
-
+### Screenshot
+![image](https://github.com/joseph-gerald/py-gulesider/assets/73967013/a7f9a398-e3e9-489e-bae6-9b22e9e68415)
 
 ## Example (examples.py)
 ```py
