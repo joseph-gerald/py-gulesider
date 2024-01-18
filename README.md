@@ -13,9 +13,22 @@ Python api to fetch data from gulesider
 ## Example (examples.py)
 ```py
 from api.gulesider import GuleSider
+from colorama import init, Fore
+
+yellow = Fore.LIGHTYELLOW_EX
+red = Fore.LIGHTRED_EX
+dark_red = Fore.BLACK
+green = Fore.GREEN
+lyellow = Fore.LIGHTYELLOW_EX
+cyan = Fore.LIGHTCYAN_EX
+blue = Fore.LIGHTBLUE_EX
+gray = Fore.LIGHTBLACK_EX
+white = Fore.LIGHTWHITE_EX
+magenta = Fore.LIGHTMAGENTA_EX
+reset = Fore.RESET
 
 gule_sider = GuleSider()
-pages = gule_sider.search("Arad Asgari", False)
+pages = gule_sider.search("Benk Moe", False)
 
 def display_info(person):
     if (person.birth_date == None): return
@@ -57,27 +70,27 @@ display_info(person)
 
 """
 -------------------------------------------------------
-Information (Arad Aghalo Asgari):
+Information (Benk Moe):
 -------------------------------------------------------
-FLN : Arad Aghalo Asgari
-TLF : 480 55 039
-DOB : 2002-09-30
-ADR : Hampengen 34A 1391 Vollen
+FLN : Benk Moe
+TLF : 947 85 488
+DOB : 1999-11-16
+ADR : Langskårveien 131 7100 Rissa
 -------------------------------------------------------
-Address Information (Hampengen 34A 1391 Vollen):       
+Address Information (Langskårveien 131 7100 Rissa):
 -------------------------------------------------------
-LAT 59.7870002, LON 10.4859251
+LAT 63.5554934, LON 9.9382168
 
 Tenants (3):
 
-FLN : Farzaneh Aghlo
-TLF : 977 55 926
+FLN : Parisa Moe
+TLF : 474 85 388
 
-FLN : Reza Asgari
-TLF : 66 78 59 59
+FLN : Benk Moe ~TARGET~
+TLF : 947 85 488
 
-FLN : Arad Aghalo Asgari ~TARGET~
-TLF : 480 55 039
+FLN : Terje Olav Moe
+TLF : 416 95 104
 -------------------------------------------------------
 """
 ```
