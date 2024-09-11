@@ -1,6 +1,9 @@
 # py-gulesider
 Python api to fetch data from gulesider
 
+> [!WARNING]
+> As of 11/09/24 the old GuleSider API has been deprecated and the library no longer works
+
 > [!IMPORTANT]
 > This project will most likely not be maintained and will break over time
 
