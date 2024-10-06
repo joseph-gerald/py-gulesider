@@ -5,7 +5,7 @@ Python api to fetch data from gulesider
 > As of 11/09/24 the old GuleSider API has been deprecated and the library no longer works
 
 > [!IMPORTANT]
-> This project will most likely not be maintained and will break over time
+> This project will be updated in the near future but due to new changes DOB is no longer scrapeable
 
 > [!NOTE]
 > Code open-sourced from the private repo for [api.jooo.tech](https://api.jooo.tech/)
